@@ -7,11 +7,7 @@
 
 #include "esp_wpa2.h"
 #include <WiFi.h>
-
-const char* ssid = "Ziggo"; // your ssid
-#define EAP_ID "youruserid"
-#define EAP_USERNAME "youruserid"
-#define EAP_PASSWORD "yourpassword"
+#include "wifiConfig.h"
 
 void setup() {
     Serial.begin(115200);
